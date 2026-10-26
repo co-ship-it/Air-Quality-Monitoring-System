@@ -1,0 +1,17 @@
+# Secrets - never upload your real API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# Local database (created when the app runs)
+data/*.db
+
+# Editors / OS
+.idea/
+Thumbs.db
+.DS_Store
